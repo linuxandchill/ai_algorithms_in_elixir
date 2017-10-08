@@ -35,7 +35,7 @@ defmodule GenerateAndTest do
   end
 
   defp even?(number) when is_number(number) do
-    if Integer.is_even(number)  do: true, else: false
+    if Integer.is_even(number), do: true, else: false
   end
 
   defp say_answer(true) do
